@@ -10,6 +10,13 @@ import Logo from "..//images/Rectangle 1 (1).png";
 import graph from "../images/ic-trending-up-24px (1).png";
 import about from "../images/Rectangle 15.png";
 import vector from "../images/Vector (3).png";
+import light from "../images/flat-color-icons_idea.png"
+import arrow from "../images/mage_goals-fill.png"
+import vector2 from "../images/Vector (5).png"
+import game from "../images/game-icons_road.png"
+import vector3 from "../images/Vector (6).png"
+import vector4 from "../images/Group 1171275311.png"
+
 
 const Home = () => {
   return (
@@ -107,7 +114,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="container mt-5">
+        <div className="container  projectsNum ">
           <div className="row justify-content-center">
             <div className="col-10">
               <div className="stats-box d-flex justify-content-between align-items-center text-center p-4 rounded">
@@ -177,15 +184,15 @@ const Home = () => {
       </div>
 
       {/* Section 3 */}
-      <div className="section3 container mt-5 mb-5">
+      <div className="section3 container-fluid mt-5 mb-5">
         <h5 className=" text-white coloredP3 mb-5 pt-5 text-center">
           كلمة مدير{" "}
           <span className="text-warning borderr border-warning">المؤسسة</span>
         </h5>
         <h5>
-        
+{/*         
           <p className="centerP">
-          <img src={vector} alt="" className="vector "  />
+          <img src={} alt="" className="vector "  />
             إنــــه لمــن دواعــي فخـــــــــرنا واعتزازنا أن نكـــــون بهذا
             الصــــــرح العملاق، متميــــــــزون بجودة ما
           </p>
@@ -194,7 +201,7 @@ const Home = () => {
             بها في العديـــــــــد من
           </p>
           <p className="centerP">
-            الأعمال والمشاريع،نتطلع لخـــــدمتكـم على أكمــل وجــــه من
+            الأعمال والمشاريع،نتطلع لخvectorـــــدمتكـم على أكمــل وجــــه من
             خـــــلال فـــــريق عمــــل متخصص
           </p>
           <p className="centerP">
@@ -209,9 +216,300 @@ const Home = () => {
             المحــدد هي ركزتين أســاسيتين للتميز والتطـــــــوير
             والاستمــــــــــرارية في ســـــوق العمل بنجاح
             <img src={vector} alt="" className="vector  "  />
-          </p>
+          </p> */}
+        
+        <div className="qoute d-flex align-content-center justify-content-center">
+          <div className="firstQouteIcon">
+            <img src={vector} alt=""  className="w-75"/>
+          </div>
+          <div className="quoteText">
+
+            <p className="text-justify text-white  fs-5">إنــــه لمــن دواعــي فخـــــــــرنا واعتزازنا أن نكـــــون بهذا الصــــــرح العملاق، متميــــــــزون بجودة ما نقدمه لعملائنا وحرصاً منا على أن نكون على قدر الثقة التي نحظــــى بها في العديـــــــــد من الأعمال والمشاريع،نتطلع لخـــــدمتكـم على أكمــل وجــــه من خـــــلال فـــــريق عمــــل متخصص همـــه الأول ارضـــاؤكـــــم، والعمـــــل على إنجـــــــاز الأعمال وتنفيذها بأفضل المواصــفات وفقاً للأصول الفنية لأن تحقيــــق رضــــــا العمــلاء وإتمــــام الأعمــــــــــــــال الموكلــــة إلينــــا في الوقت المحــدد هي ركزتين أســاسيتين للتميز والتطـــــــوير والاستمــــــــــرارية في ســـــوق العمل بـنجــــاح</p>
+          </div>
+          <div className="secondQouteIcon d-flex top-0 ">
+            <img src={vector2} alt=""  className="w-75"/>
+          </div>
+        </div>
         </h5>
       </div>
+
+
+
+
+      {/* section 4 */}
+      <div className="container my-5">
+      <div className="row text-right">
+        {/* Right Column */}
+        <div className="col-md-6 mb-4">
+          <div className="content-box">
+            <h4 className="title d-flex">
+              <div className="lightIcon d-flex justify-content-center align-items-center border-warning "><img src={light} alt="" className="lightImg"/></div>
+              <div className="lightContent">
+              <span className="coloredP5 pe-2"> <span className="text-warning">رؤية</span> المؤسسة</span>
+              </div>
+            </h4>
+            <p className="content-text me-5 text-justify">
+            أن تكـــــــون مـــؤسســــــة حــــدود البنـــــــاء للمقاولات العامـــة ،رائـــدة في 
+            الســــوق المحلي والعالمي، وذلك بتقديمها أعلى مستويات التــــــقنية 
+            والجودة في مجال البناء، وأن نصبح الخيــــار الأفضـــــل للعمـــــــلاء مـــــــن 
+            خـــــلال تحقيـــــق الاستــــدامـة والتميـــــز في جــــودة المشاريـع المنجـــــزة فـــي الوقــــت المحــــدد وبأسعـار مناسبـــة ومنافســـــة.
+            </p>
+          </div>
+        </div>
+
+        {/* Left Column */}
+        <div className="col-md-6 mb-4">
+          <div className="content-box">
+            <h4 className="title d-flex">
+            <div className="lightIcon d-flex justify-content-center align-items-center border-warning "><img src={arrow} alt="" className="lightImg"/></div>
+              <div className="lightContent">
+              <span className="coloredP5 pe-2"> <span className="text-warning">رسالة</span> المؤسسة</span>
+              </div>
+            </h4>
+            <p className="content-text me-5 text-justify">
+            نسعى في مؤسسة حدود البناء للمقاولات العامة لتقـديم ما يتطلع إليه العميل وذلك بإيجاد حــلول البناـــء والتي تتماـــشي مع الميزانيـــات المختلفــة الأمـــــــر الذي يسهــــــم في إيجــــــاد خيارات متعددة للمبـــاني السكني - التجـــــاري وفقآ لاحتياج العمـــلاء، ومواكية تقديـــم واهتمام المؤسسة بمعايير الجودة.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {/* section 5 */}
+    <div className="we container-fluid mb-5">
+    <div className="why-us-section py-5 text-white">
+      <div className="container text-center">
+        {/* Section Title */}
+        <h4 className="mb-5">
+          لماذا <span className="text-warning borderr border-warning">نحن؟</span>
+        </h4>
+
+        {/* Features Section */}
+        <div className="container w-75">
+        <div className="row">
+          {/* Feature 1 */}
+          <div className="col-md-3 mb-4">
+            <div className="feature-item">
+              <div className="icon-circle text-white">1</div>
+              <h5 className="mt-3">مواصفات عالية</h5>
+              <p className="featuresText">مواصفات عالية بجودة ذات قيمة ومنظمة</p>
+            </div>
+          </div>
+
+          {/* Feature 2 */}
+          <div className="col-md-3 mb-4">
+            <div className="feature-item">
+              <div className="icon-circle ">2</div>
+              <h5 className="mt-3">نخبة من المهندسين</h5>
+              <p>مجموعة من امهر المهندسين المحترفين</p>
+            </div>
+          </div>
+
+          {/* Feature 3 */}
+          <div className="col-md-3 mb-4">
+            <div className="feature-item">
+              <div className="icon-circle ">3</div>
+              <h5 className="mt-3">عقود قانونية</h5>
+              <p>عقود قانونية متوافقة مع قوانين الدولة</p>
+            </div>
+          </div>
+
+          {/* Feature 4 */}
+          <div className="col-md-3 mb-4">
+            <div className="feature-item">
+              <div className="icon-circle">4</div>
+              <h5 className="mt-3">متابعة دائمة</h5>
+              <p>متابعة دائمة وسهولة تواصل مع العملاء</p>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    {/* section 6 */}
+    <div className="services-section py-5">
+      <div className="container text-center">
+        {/* Section Header */}
+        <h2 className="mb-5 section-header text-warning  ">
+          <span className="border-bottom border-warning">الخدمات</span>  <span className=" presentIT"> التي نقدمها</span>
+        </h2>
+
+        {/* Services Row */}
+        <div className="row">
+          {/* Card 1: مشاريع الطرق */}
+          <div className="col-md-4 mb-4">
+            <div className="service-card p-4">
+              <div className="icon-circle2 projectCard1 mb-3 service-card1 ">
+                <img
+                  src={game}
+                  alt="Roads"
+                />
+              </div>
+              <h5 className="card-title">مشاريع الطرق</h5>
+              <p className="card-text">
+              تصميم، تنفيذ، وصيانة الطرق والبنية التحتية المرتبطة بها، بدءًا من التخطيط الهندسي إلى تعبيد الأسطح وإصلاح الأضرار مع ضمان الجودة والسلامة
+              </p>
+            </div>
+          </div>
+           {/* Card 2: مشاريع المباني */}
+           <div className="col-md-4 mb-4">
+            <div className="service-card p-4">
+              <div className="icon-circle2 bg-warning mb-3">
+                <img
+                  src={vector3}
+                  alt="Buildings"
+                />
+              </div>
+              <h5 className="card-title text-dark">مشاريع المباني</h5>
+              <p className="card-text">
+                إدارة جميع مراحل البناء مثل التصميم، الإنشاء، التشطيبات، والإشراف لضمان تنفيذ
+                المشاريع بكفاءة ووفق الجداول الزمنية المحددة.
+              </p>
+            </div>
+          </div>
+          {/* Card 3: مشاريع البنية التحتية */}
+          <div className="col-md-4 mb-4">
+            <div className="service-card p-4">
+              <div className="icon-circle2 bg-primary mb-3">
+                <img
+                  src={vector4}
+                  alt="Infrastructure"
+                />
+              </div>
+              <h5 className="card-title text-dark">مشاريع البنية التحتية</h5>
+              <p className="card-text">
+                تصميم وتنفيذ وصيانة الطرق الأساسية مثل مشاريع الإنارة وشبكات المياه والصرف
+                الصحي، الطرق والجسور لضمان دعم المجتمعات وتطويرها.
+              </p>
+            </div>
+          </div>
+
+         
+
+          
+        </div>
+      </div>
+    </div>
+
+    {/* section 7 */}
+    {/* <div className="review-background container-fluid ">
+      <div className="h3 text-white text-decoration-underline d-flex  justify-content-center align-items-center"><p className="mt-3">الأراء</p></div>
+      
+      <div className="slider">
+        <div className="reviewCardCondatiner">
+          <div className="reviewCard1">test</div>
+          <div className="reviewCard2">test2</div>
+          <div className="reviewCard3">test3</div>
+        </div>
+      </div>
+    </div> */}
+    <div className="testimonial-section py-5">
+      <div className="container">
+        {/* Bootstrap Carousel */}
+        <div id="testimonialCarousel" className="carousel slide" data-bs-ride="carousel">
+          <div className="carousel-inner">
+            {/* First Slide */}
+            <div className="carousel-item active">
+              <div className="testimonial-card mx-auto">
+                <div className="quote-icon">“</div>
+                <h5 className="fw-bold mt-3">Janna Khaled</h5>
+                <div className="stars mb-2">
+                  ⭐⭐⭐⭐⭐
+                </div>
+                <p className="testimonial-text">
+                  شركة حدود البناء تتميز بالالتزام العالي بمواعيد التسليم والجودة الممتازة في تنفيذ
+                  مشاريع البناء والبنية التحتية. فريقها المتخصص يحرص على توفير حلول مبتكرة تلبي احتياجات
+                  العملاء وتفوق توقعاتهم، مع الحفاظ على معايير السلامة والكفاءة في كل خطوة أرشحها لكم.
+                </p>
+              </div>
+            </div>
+
+            {/* Second Slide */}
+            <div className="carousel-item">
+              <div className="testimonial-card mx-auto">
+                <div className="quote-icon">“</div>
+                <h5 className="fw-bold mt-3">Mohammed Ali</h5>
+                <div className="stars mb-2">
+                  ⭐⭐⭐⭐⭐
+                </div>
+                <p className="testimonial-text">
+                  فريق عمل محترف للغاية وملتزم بتسليم المشاريع في الوقت المحدد. كانت تجربة ممتازة وسأوصي
+                  بهم لأي شخص يبحث عن الجودة والابتكار في مجال البناء.
+                </p>
+              </div>
+            </div>
+
+            {/* Third Slide */}
+            <div className="carousel-item">
+              <div className="testimonial-card mx-auto">
+                <div className="quote-icon">“</div>
+                <h5 className="fw-bold mt-3">Sara Ahmed</h5>
+                <div className="stars mb-2">
+                  ⭐⭐⭐⭐⭐
+                </div>
+                <p className="testimonial-text">
+                  خدمة رائعة وجودة لا مثيل لها! تمت إدارة المشروع بسلاسة واحترافية عالية. أنصح بهم
+                  بشدة.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Custom Navigation Arrows */}
+          <button
+            className="carousel-control-prev custom-arrow"
+            type="button"
+            data-bs-target="#testimonialCarousel"
+            data-bs-slide="prev"
+          >
+            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          </button>
+          <button
+            className="carousel-control-next custom-arrow"
+            type="button"
+            data-bs-target="#testimonialCarousel"
+            data-bs-slide="next"
+          >
+            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          </button>
+
+          {/* Pagination Dots */}
+          <div className="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#testimonialCarousel"
+              data-bs-slide-to="0"
+              className="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#testimonialCarousel"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#testimonialCarousel"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+        </div>
+      </div>
+    </div>
     </>
   );
 };

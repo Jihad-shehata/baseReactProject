@@ -112,7 +112,7 @@ i {
   position: absolute;
   top: -15px;
   
-  left:35px;
+  left:120px;
   width: 120px;
   height: 120px;
   background-color: #ffcc00; /* Orange color */
@@ -382,19 +382,87 @@ h2 span.text-warning {
 
 
 /* section 7 */
-/* .review-background
+.review-background
 {
   background-image:linear-gradient(to right, rgba(61, 57, 146, 0.959) 1%, rgba(64, 61, 116, 0.925) 80% ), url("../images/image.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 350px;
+  height: 550px;
  
-} */
- /* Section Background */
+}
+/* Container for the layers */
+.layered-container {
+  position: relative;
+  width:1000px;
+  height: 500px;
+  margin: 1px auto;
+ 
+  overflow: hidden;
+}
+
+/* Base style for layers */
+.layer {
+  position: absolute;
+  border: 2px solid transparent;
+  border-radius: 15px;
+  margin-bottom: 100px;
+ 
+}
+
+/* Layer 1: Largest */
+.layer-1 {
+  width: 650px;
+  height: 310px;
+  background-color: #dee2e6; /* Yellow */
+  z-index: 1;
+}
+
+/* Layer 2: Medium */
+.layer-2 {
+  width: 620px;
+  height: 330px;
+  background-color: whitesmoke;/* Dark Purple */
+  z-index: 2;
+}
+
+/* Layer 3: Smallest */
+.layer-3 {
+  width: 580px;
+  height: 350px;
+  background-color: white; /* Light Blue */
+ 
+  z-index: 3;
+}
+
+.dotted-box2 {
+  position: absolute;
+  bottom: 410px;
+  right: 120px;
+  width: 130px;
+  height: 170px;
+  background-image: radial-gradient(white 1px, transparent 2px);
+  background-size: 10px 10px;
+  z-index: 0;
+ 
+}
+.dotted-box3 {
+  position: absolute;
+  bottom: 110px;
+ 
+  left: 120px;
+  width: 130px;
+  height: 130px;
+  background-image: radial-gradient(rgba(235, 174, 59, 1) 1px, transparent 2px);
+  background-size: 10px 10px;
+  z-index: 50;
+ 
+}
+/* kjhjgvhfcgd */
+
+/* Section Background */
 .testimonial-section {
-  background-color: #322c4c; /* Dark purple */
-  color: #ffffff;
+ 
   position: relative;
 }
 
@@ -423,22 +491,25 @@ h2 span.text-warning {
 /* Star Rating */
 .stars {
   color: #fcb503;
-  font-size: 1.2rem;
+  font-size: 1rem;
+ 
 }
 
 /* Testimonial Text */
 .testimonial-text {
-  font-size: 1rem;
+  font-size: 15px;
   line-height: 1.8;
 }
 
 /* Custom Arrows */
 .custom-arrow .carousel-control-prev-icon,
 .custom-arrow .carousel-control-next-icon {
-  background-color: #fcb503;
+  background-color: wheat;
   border-radius: 50%;
   width: 40px;
   height: 40px;
+  margin: 20px;
+  
 }
 
 /* Pagination Dots */
@@ -449,6 +520,25 @@ h2 span.text-warning {
   height: 12px;
 }
 
-.carousel-indicators .active {
-  background-color: #ffffff;
+
+
+
+
+/* Arrow styling */
+.arrow {
+  color: #4d3c77; /* Dark purple arrow */
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Hover effect for the button */
+.circular-btn:hover {
+  transform: scale(1.1); /* Slight zoom */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+.button-container
+{
+  margin-right: 170px;
+  padding-top: 20px;
+
 }
